@@ -1,0 +1,59 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    background-image: url("bakgrund.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav {
+    display: grid;
+    grid-auto-flow: column;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    gap: 100px;
+}
+
+.current {
+    color: red;
+}
+
+.current:hover {
+    color: red;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
+
+header {
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-shadow: -2px -2px #000, 2px -2px #000, -2px 2px #000, 2px 2px #000;
+    text-align: center;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(9, 9, 121, 1) 50%, rgba(0, 0, 0, 1) 100%);
+    width: 40%;
+    margin: auto;
+    border-radius: 20px 20px 20px 20px;
+}
+
+main {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+footer {
+    background-color: darkblue;
+}
